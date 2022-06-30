@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mnist</title>
+<link rel="stylesheet" type="text/css" href="/static/css/mnist1.css" />
+<script type="text/javascript" src="/static/javascript/jquery.min.js"></script>
+<script>
+  function readURL(input)
+  {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        $("#blah").attr("src", e.target.result);
+      };
+       reader.readAsDataURL(input.files[0]);
+    }
+  }
+ </script>
+<script language="JavaScript" type="text/javascript" src="/static/javascript/predict_button.js"></script>
+</head>
+<body>
+  <div id="a1">
+   <a href="/" name="HOME" id="i1">HOME</a>
+  </div>
+  <div id="d1">
+  <p id="p1">MNIST</p>
+  </div>
+  <br><br>
+  <div id="d2">
+   <div id="col1">
+    <h1 id="h1">Upload an image</h1>
+    <br>
+    <form id="upload-file-model" action="/mnistprediction" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="imgInp" value="Browse Image" onchange="readURL(this);" accept=".png, .jpg, .jpeg">
+    <label for="imgInp" id="b1">Browse Image</label>
+  </form>
+  <br>
+  <br>
+   <button type="button" id="b2">Predict MNIST</button>
+    <h1 id="h2">Image Preview</h1>
+    <img id="blah" src="#" alt="your image">
+   </div>
+   <div id="col2">
+    <h2 id="h12">Prediction</h2>
+    <div id="resultModel" style="font-size: 20px">
+      <span></span>
+    </div>
+    <br>
+   </div>
+  </div>
+</body>
+</html>

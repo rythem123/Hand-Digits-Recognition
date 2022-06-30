@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background:#2b323c; 
+}
+.container{
+    
+    color:#fff;
+    position: relative;
+    margin: 0 auto;
+    clear: left;
+    height: auto;
+    z-index: 0;
+    text-align: center;
+    margin: 30px;
+     }
+p{
+    font-size: 35px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+#bttn-div{
+    text-align: center;
+}
+
+button{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-family: "Oxygen", sans-serif;
+    font-size: 17px;
+    
+}
+button:hover 
+{
+    font-size: 200%;   
+}

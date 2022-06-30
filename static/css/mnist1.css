@@ -1,0 +1,124 @@
+*{
+    background:black;
+}
+#p1:hover
+{
+  color: gold;
+}
+#p1
+{
+    font-size: 45px;
+    color: azure;
+    text-align: center;
+}
+#d1
+{
+   padding-top: 3em;
+}
+#h1{
+    font-size: 20px;
+    color: black;
+    background-color:grey;
+    padding-top:20px;
+  padding-left:35px;
+}
+#h2
+{
+  font-size: 20px;
+    color: black;
+    background-color:grey;
+    padding-top:20px;
+    padding-left:35px;
+}
+#d2
+{
+   width:80%;
+   height:400px;
+   margin-right:30%;
+   margin-left:10%;
+   margin-bottom:20px;
+   border-style:solid;
+   border-color:white;
+  border-width:5px;
+  border-radius:5px;
+  padding-right:40;
+}
+#col1
+{
+   float: left;
+   width: 30%;
+   height: 400px; 
+   background-color: grey;
+}
+#col2
+{
+  float:left;
+  width:70%;
+  height:400px;
+  background-color:rgb(181, 175, 175);
+}
+#b1
+{
+  margin-left:30px;
+  border-radius: 25px;
+  background-color: #020e1f;
+  font-size: 100%;
+  color: #fff;
+  cursor:pointer;
+  padding: 13px 25px;
+  width: 30px;
+}
+form{
+    background-color: grey;
+}
+#imgInp
+{
+  opacity: 0;
+  position: absolute;
+  z-index: -1; 
+  background-color: gray;
+  width: 30px;
+}
+#b2
+{
+  margin-left:30px;
+  border-radius: 25px;
+  background-color: #020e1f;
+  font-size: 100%;
+  color: #fff;
+  cursor:pointer;
+  padding: 10px 20px;
+}
+#blah 
+{
+    max-width: 60%;
+    max-height: 35%;
+    margin-left:35px
+}
+a   
+{
+  margin:10px;
+  font-size: 20px;
+  color: gold;
+}
+a:hover
+{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#image_div1 
+{
+  max-width: 70%;
+  max-height: 70%;
+}
+#h12
+{
+  color:white;
+  padding-left: 40%;
+}
+#resultModel
+{
+color: darkgoldenrod;
+font-size: 10cm;
+}
